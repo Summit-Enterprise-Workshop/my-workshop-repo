@@ -36,7 +36,7 @@ limits:
   max_aliases: 3
 
 
-perview_persisted_queries:
+preview_persisted_queries:
   enabled: true
   safelist:
     enabled: true
