@@ -17,7 +17,7 @@ type Query {
 """
 Returns information about a specific purchase
 """
-type Order @key(fields: "id") {
+type Order @key(fields: "id") @authenticated {
   """
   Each order has a unique id which is separate from the user or items they bought
   """
