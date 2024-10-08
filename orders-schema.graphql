@@ -41,10 +41,8 @@ type User @key(fields: "id") {
   id: ID!
   phone: String
     @tag(name: "private")
-    @shareable
   email: String!
     @tag(name: "private")
-    @shareable
 }
 
 type ProductVariant @key(fields: "id", resolvable: false) {
